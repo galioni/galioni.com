@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>André Galioni - Gerador CPF / CNPJ</title>
+  <link rel="stylesheet" href="../content/css/main.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11020092-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-11020092-1');
+  </script>
+</head>
+<body onload="documentos()" id="main" class="gerador">
+
+  <div class="title">
+    <a href="../index.html">André Galioni - Developer</a>
+  </div>
+  <div>
+    <label>CPF:</label>
+    <label id="textoCPF" />
+  </div>
+  <div>
+    <label>CNPJ:</label>
+    <label id="textoCNPJ" />
+  </div>
+  <div>
+    <input type="button" value="Gerar" id="gerar" onclick="documentos()" />
+  </div>
+
+  <script src="../content/js/gerador.js"></script>
+</body>
+
+</html>
