@@ -1,0 +1,43 @@
+@media only screen and (min-width: 481px) {
+}
+
+@media only screen and (min-width: 920px) {
+}
+
+@media only screen and (min-width: 1030px) {
+}
+
+@media only screen and (min-width: 1240px) {
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media print {
+}
+
+body {
+    margin: 30px;
+}
+
+ul {
+    padding-top: 10px;
+    list-style-type: square;
+    margin: 2px;
+}
+
+ul li {
+    margin: 10px;
+}
+
+ul.stations li:nth-child(odd) {
+    color: #ff8861;
+}
+ul.stations li:nth-child(even) {
+    color: #33338a;
+}
